@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Asignment no 7 Form</title>
+</head>
+<style>
+	button.abc {
+    background-color: forestgreen;
+    width: 124px;
+    height: 33px;
+    color: white;
+}
+form.kj {
+    background-color: lightgray;
+    width: 441px;
+    margin-left: 10px;
+}
+h1 {
+    background-color: forestgreen;
+    /* display: inline; */
+    color: white;
+    margin-left: 10px;
+    /* height: 19px; */
+    width: 441px;
+    margin-bottom: 0px;
+}
+	</style>
+
+
+
+<body>
+	<br>
+	<br>
+	<br>
+	<h1>User Registration Form</h1>
+	<form action="#" class="kj">
+		
+			<lable> Username: 
+			<input type="text" name="username" size="15" maxlength="30" style="margin-left: 70px">
+		</lable>
+		<br/>
+		<label>
+			Password:
+			<input type="password" name="password" size="15" maxlength="30" style="margin-left: 73px;margin-top: 3px;">
+		</label>	
+		<br/>
+		<label>
+			Date of Birth:
+			<input type="text" name="dob" size="15" maxlength="30" placeholder="dd/mm/yyyy" style="margin-left: 50px; margin-top: 3px;">
+			<br/>
+		</label>
+
+		<label>
+			Web Url:
+				<input type="text" name="url" size="15" maxlength="30"  style="margin-left: 80px; margin-top: 3px;">
+			</label>	
+			<br/>
+
+		<label>
+			Address:
+			<input type="text" name="add" size="15" maxlength="30" style="margin-left: 81px; margin-top: 3px;">
+		</label>
+		<br/>
+		<label>
+			City:
+			<SELECT name="city" maxlength="30"  style="margin-left: 105px; margin-top: 3px;" >
+				<option value="khi">Karachi</option>
+				<option value="lhr">Lahore</option>
+				<option value="isl">Islamabad</option>
+			</SELECT>
+		</label>
+<br/>
+	<label>
+		State:
+		<input type="text" name="state" size="15" maxlength="30"  style="margin-left: 100px; margin-top: 3px;" >
+	</label>
+	<br>
+	<label>
+		Zip:
+		<input type="text" name="zip" size="15" maxlength="30"  style="margin-left: 110px; margin-top: 3px;" >
+	</label>
+	<br/>
+	<p >
+	Magazine:
+		<select name="mag" size="4" multiple="multiple" style="margin-left: 65px; ">
+			<option value="newsweek">Newsweek</option>
+			<option value="time">Time</option>
+			<option value="fortune">Fortune</option>
+			<option value="tv">TV Guide</option>
+			
+		</select>
+	<p>
+	
+
+
+<label>
+	Additional Comment: <br/>
+	<textarea name="Comment" cols="50" rows="5">Enter Your Commint</textarea>
+</label>
+<br/>
+<label>
+	upload your Profile Picture: 
+	<input type="file" name="profile_pic" ><br/>
+	
+	<input class="abc" type="submit" name="upload" value="upload" style="margin-left: 182px; color: white;
+    background-color: forestgreen;" >
+</label><br/>
+
+<button class="abc">
+	Send Your Order
+</button>
+
+	</form>
+
+</body>
+</html>
